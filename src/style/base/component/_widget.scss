@@ -1,0 +1,29 @@
+.widget {
+  background: $header-color;
+  margin-bottom: $base-font;
+}
+
+
+
+.widget-header {
+  background: $main-color;
+  color: $text-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $base-font;
+}
+
+.widget-header__title {
+  margin: 0;
+}
+
+.widget__message {
+  color: $text-color;
+  text-align: center;
+  text-transform: capitalize;
+  padding: $base-font;
+  margin: 0;
+  border: none;
+  border-bottom: 0.1rem solid lighten( #ccc, 5%);
+}

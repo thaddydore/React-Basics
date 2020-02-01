@@ -1,0 +1,15 @@
+.option {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: $base-font;
+	border-bottom: 0.5px solid lighten($text-color, 5%);
+}
+
+.option__text {
+	text-transform: capitalize;
+  color: $text-color;
+  font-weight: 500;
+  margin: 0;
+  word-break: break-all;
+}

@@ -1,0 +1,33 @@
+.big-button {
+  background-color: $main-color;
+  border: none;
+  border-bottom: .6rem solid darken($main-color, $amount: 3%);
+  color: $text-color;
+  font-weight: bold;
+  font-size: xx-large;
+  width: 100%;
+  margin-bottom: $base-font-medium;
+  padding: 1.8rem
+}
+
+//changes the color of the button inactive state
+.big-button:disabled {
+  opacity: .5;
+}
+
+//smaller buttons 
+.button {
+  background-color: $main-color;
+  border: none;
+  border-bottom: .3rem solid darken($main-color, $amount: 3%);
+  color: $text-color;
+  font-weight: 500;
+  padding:$base-font-small;
+}
+
+.button--link {
+  background-color: none;
+  border: none;
+  padding: 0;
+  color:  $text-color;
+}
